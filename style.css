@@ -11,23 +11,66 @@
 }
 
 
+/* Banner Part Style */
+#banner-part{
+    width: 100%;
+    background-color: #e554732e;
+   
+}
+.banner-content{
+    display: flex;
+    opacity: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.banner-des h1{
+    color: black;
+    opacity: 100%;
+    font-size: 60px;
+    padding-bottom: 25px;
+}
+
+.banner-des p{
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 25px;
+
+}
+.banner-des button{
+    padding: 12px 18px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    background-color: #E55473;
+    color: white;
+}
+
+.banner-des button:hover{
+    color: black;
+    transition: 0.2s all ease-in-out;
+}
+
+.banner-pic{
+    width: 45%;
+}
+.banner-pic img{
+    width: 95%;
+}
+
 /* Footer Style */
 .flower-description{
     width: 100%;
     color: white;
     background-color: #111010;
     text-align: center;
-    
 }
 .footer-content{
     padding: 35px 0px;
 }
-
-
-
 .footer-content span{
     color: #E55473;
-    
 }
 .footer-content h2{
     font-size: 48px;
@@ -40,44 +83,36 @@
     word-spacing: 2px;
     line-height: 23px;
     padding-bottom: 25px;
-    
 }
 .copy-right{
     color: #FFFFFF;
     opacity: 40%;
     font-size: 15px;
 }
-
 .footer-menu{
     width: 100%;
     background-color: #E55473;
     padding: 25px 0px;
-    
 }
 .menu-items{
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-between;
 }
-
 .social, .short-link a{
     text-decoration: none;
     padding: 0px 10px;
 }
-
 .social a i{
     color: white;
     font-size: 19;
     padding: 0px 6px;
 }
-
 .short-link a{
     color: white;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
 }
-
 .social a i:hover{
     color: black;
     transition: 0.s all ease-in-out;
