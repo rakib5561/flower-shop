@@ -3,3 +3,87 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 1180px;
+    margin: 0 auto;
+    /* padding: 0px 10px; */
+}
+
+
+/* Footer Style */
+.flower-description{
+    width: 100%;
+    color: white;
+    background-color: #111010;
+    text-align: center;
+    
+}
+.footer-content{
+    padding: 35px 0px;
+}
+
+
+
+.footer-content span{
+    color: #E55473;
+    
+}
+.footer-content h2{
+    font-size: 48px;
+    padding-bottom: 30px;
+}
+.footer-content p{
+    color: white;
+    opacity: 90%;
+    font-size: 15px;
+    word-spacing: 2px;
+    line-height: 23px;
+    padding-bottom: 25px;
+    
+}
+.copy-right{
+    color: #FFFFFF;
+    opacity: 40%;
+    font-size: 15px;
+}
+
+.footer-menu{
+    width: 100%;
+    background-color: #E55473;
+    padding: 25px 0px;
+    
+}
+.menu-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.social, .short-link a{
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+.social a i{
+    color: white;
+    font-size: 19;
+    padding: 0px 6px;
+}
+
+.short-link a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.social a i:hover{
+    color: black;
+    transition: 0.s all ease-in-out;
+
+}
+.short-link, a:hover{
+    color: black;
+    transition: 0.s all ease-in-out;
+}
