@@ -22,7 +22,6 @@
     opacity: 100%;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .banner-des h1{
@@ -31,12 +30,10 @@
     font-size: 60px;
     padding-bottom: 25px;
 }
-
 .banner-des p{
     font-size: 16px;
     line-height: 23px;
     margin-bottom: 25px;
-
 }
 .banner-des button{
     padding: 12px 18px;
@@ -57,6 +54,64 @@
 }
 .banner-pic img{
     width: 95%;
+}
+
+/* featured part style */
+
+.featured-wrapper{
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.featured-title{
+    padding: 20px 0px;
+}
+
+.featured-title h2{
+    font-size: 36px;
+    padding-bottom: 15px;
+}
+
+.featured-title p{
+    color: black;
+    opacity: 80%;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.flowers-items{
+   width: 100%;
+   display: flex;
+}
+
+.single-item{
+    width: 33%;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.single-item h4{
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.single-item img{
+    width: 65%;
+    height: 300px;
+    padding: 40px;
+   /* background-color: #A72162; */
+   border-radius: 48% 48% 0px 0px;
+}
+
+.one img{
+    background-color: #a7216259;
+}
+.two img {
+    background-color: #0597a040;
+}
+.three img {
+    background-color: #477d114a;
 }
 
 /* Footer Style */
