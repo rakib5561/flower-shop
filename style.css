@@ -35,13 +35,14 @@
     line-height: 23px;
     margin-bottom: 25px;
 }
-.banner-des button{
+.rglr-btn {
     padding: 12px 18px;
     border-radius: 3px;
     outline: none;
     border: none;
     background-color: #E55473;
     color: white;
+    margin-top: 20px;
 }
 
 .banner-des button:hover{
@@ -113,6 +114,45 @@
 .three img {
     background-color: #477d114a;
 }
+
+/* Service part style */
+.service-part{
+    text-align: center;
+    padding: 40px 0px;
+    background-color: #2727271f;
+    margin: 60px 0px;
+}
+
+.service-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-content p{
+    padding: 10px 0px;
+}
+
+/* hot deal */
+#hot-deal{
+    background-color: #e5547326;
+    padding: 80px 0px;
+    margin: 40px 0px;
+}
+.hot-deal-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+
+.deal-des h2{
+    font-size: 36px;
+    padding-bottom: 15px;
+}
+
+
 
 /* Footer Style */
 .flower-description{
